@@ -8,7 +8,7 @@ Globals:
   Function:
     Timeout: 3
     Runtime: nodejs18.x
-    CodeUri: hello-world/
+    CodeUri: ./
     Architectures:
       - x86_64
 
