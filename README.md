@@ -2,10 +2,10 @@
 
 To use the SAM CLI, you need the following tools.
 
-# SAM CLI - [Install the SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html)
-# Node.js - [Install Node.js 18](https://nodejs.org/en/), including the NPM package management tool.
-# Docker - [Install Docker community edition](https://hub.docker.com/search/?type=edition&offering=community)
-  * Add a `DOCKER_HOST` to your `~/.bashrc` or `./.zshrc`
+- SAM CLI - [Install the SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html)
+- Node.js - [Install Node.js 18](https://nodejs.org/en/), including the NPM package management tool.
+- Docker - [Install Docker community edition](https://hub.docker.com/search/?type=edition&offering=community)
+  - Add a `DOCKER_HOST` variable to your `~/.bashrc` or `./.zshrc`
     `export DOCKER_HOST=unix://$HOME/.docker/run/docker.sock`
 
 To make it sure that your env. is ready, run the following command
